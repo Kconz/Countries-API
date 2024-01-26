@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background-image: linear-gradient(
+    to right,
+    #283694,
+    #0073d1,
+    #00a5c7,
+    #00cf81,
+    #a8eb12
+  );
+}
+.topic {
+  text-align: center;
+  margin: 1.6rem;
+  color: #fff;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  width: 1300px;
+}
+.country-card {
+  width: 300px;
+  background: #eee;
+  border-radius: 10px;
+  box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
+  margin: 10px;
+  padding: 15px;
+  text-align: center;
+  transition: 0.2s ease-in-out;
+}
+.country-card:hover,
+.country-card:focus {
+  transform: scale(1.1);
+}
+.country-card .img-container {
+  width: 260px;
+  height: 240px;
+  text-align: center;
+}
+.country-card .img-container img {
+  margin-top: 10px;
+  height: 150px;
+  max-width: 200px;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
